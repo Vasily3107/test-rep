@@ -8,11 +8,15 @@ while True:
     print("5 - exit \n")
 
     match input("Enter choice: "):
-        case "1":
-            pass
+    case "1":
+        v1 = int(input("Enter first value: "))
+        v2 = int(input("Enter second value: "))
+        print(addition(v1, v2))
 
-        case "2":
-            pass
+    case "2":
+        v1 = int(input("Enter first value: "))
+        v2 = int(input("Enter second value: "))
+        print(subtraction(v1, v2))
 
         case "3":
             pass
