@@ -1,2 +1,6 @@
 def division(value1, value2):
+    if value2 == 0:
+        print("Error: division by zero")
+        return None
+
     return value1 / value2
